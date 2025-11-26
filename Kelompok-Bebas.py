@@ -36,15 +36,15 @@ def next_turn(snake, food):
     snake.squares.insert(0, square)
 
     if x == food.coordinates[0] and y == food.coordinates[1]:
-      global score
+       global score
 
-        score += 1
+       score += 1
 
-        label.config(text="Score:{}".format(score))
+       label.config(text="Score:{}".format(score))
 
-        canvas.delete("food")
+       canvas.delete("food")
 
-        food = Food()
+       food = Food()
 
     else:
 
