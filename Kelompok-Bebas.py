@@ -76,7 +76,7 @@ def change_direction(new_direction):
             direction = new_direction
     elif new_direction == 'down':
         if direction != 'up':
-            direction = new_direction
+            direction = new_directionk
 
 def check_collisions(snake):
 
