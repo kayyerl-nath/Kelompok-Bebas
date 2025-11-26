@@ -1,3 +1,1 @@
-print("hello world")# Kelompok Bebas
-# Pengenalan Pemrograman
-# Anggota Kelompok
+print("hello world")
